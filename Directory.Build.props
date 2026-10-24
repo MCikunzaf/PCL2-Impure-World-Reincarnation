@@ -1,0 +1,6 @@
+<Project>
+  <!-- 临时文件：为 net48 项目提供引用程序集，构建完成后可删除 -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
